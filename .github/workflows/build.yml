@@ -39,7 +39,7 @@ jobs:
           restore-keys: ${{ runner.os }}-m2
 
       - name: Build and analyze
-        working-directory: ./zirah_final/zirah_now/zirah
+        working-directory: ./zirah_now/zirah
         env:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
         run: |
