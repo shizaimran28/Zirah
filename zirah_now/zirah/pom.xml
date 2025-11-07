@@ -17,6 +17,7 @@
     <description>Internship Finder Platform</description>
     
     <properties>
+             <sonar.organization>shizaimran28</sonar.organization>
     </properties>
     
     <dependencies>
